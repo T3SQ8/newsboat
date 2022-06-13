@@ -120,6 +120,7 @@ task:
         - brew install "pyenv" || brew upgrade "pyenv"
         - rustup-init -y --default-toolchain $RUST
         - rustc --version && cargo --version
+        - make --version
 
     env:
         GCOV: /usr/bin/gcov

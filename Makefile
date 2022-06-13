@@ -5,7 +5,7 @@ datadir?=$(prefix)/share
 localedir?=$(datadir)/locale
 docdir?=$(datadir)/doc/$(PACKAGE)
 
-CARGO_TARGET_DIR?=target
+export CARGO_TARGET_DIR?=target
 
 CPPCHECK_JOBS?=5
 
